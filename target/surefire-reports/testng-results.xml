@@ -2,39 +2,39 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11950" started-at="2020-11-04T11:20:36 PKT" finished-at="2020-11-04T11:20:48 PKT">
+  <suite name="Suite" duration-ms="11959" started-at="2020-11-04T18:06:41 PKT" finished-at="2020-11-04T18:06:53 PKT">
     <groups>
     </groups>
-    <test name="Run" duration-ms="11950" started-at="2020-11-04T11:20:36 PKT" finished-at="2020-11-04T11:20:48 PKT">
+    <test name="Run" duration-ms="11959" started-at="2020-11-04T18:06:41 PKT" finished-at="2020-11-04T18:06:53 PKT">
       <class name="com.Android_SDK_Native.RoundRobin_AdMob_Native">
-        <test-method status="PASS" signature="Start_Appium()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="Start_Appium" is-config="true" duration-ms="11108" started-at="2020-11-04T11:20:36 PKT" finished-at="2020-11-04T11:20:47 PKT">
+        <test-method status="PASS" signature="Start_Appium()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="Start_Appium" is-config="true" duration-ms="11106" started-at="2020-11-04T18:06:41 PKT" finished-at="2020-11-04T18:06:52 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start_Appium -->
-        <test-method status="FAIL" signature="InitialiseApplication()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="InitialiseApplication" is-config="true" duration-ms="748" started-at="2020-11-04T11:20:47 PKT" finished-at="2020-11-04T11:20:48 PKT">
+        <test-method status="FAIL" signature="InitialiseApplication()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="InitialiseApplication" is-config="true" duration-ms="756" started-at="2020-11-04T18:06:52 PKT" finished-at="2020-11-04T18:06:53 PKT">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
@@ -96,7 +96,7 @@ at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumComm
 ... 50 more
 Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
@@ -125,30 +125,30 @@ at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialiseApplication -->
-        <test-method status="SKIP" signature="RoundRobin_AdMob_Native_First()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="RoundRobin_AdMob_Native_First" duration-ms="0" started-at="2020-11-04T11:20:48 PKT" finished-at="2020-11-04T11:20:48 PKT">
+        <test-method status="SKIP" signature="RoundRobin_AdMob_Native_First()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="RoundRobin_AdMob_Native_First" duration-ms="0" started-at="2020-11-04T18:06:53 PKT" finished-at="2020-11-04T18:06:53 PKT">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
 at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
@@ -210,7 +210,7 @@ at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumComm
 ... 50 more
 Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:c21:f42b:26f8:2b20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
+System info: host: 'NB-0046.local', ip: 'fe80:0:0:0:868:c466:d2a8:1a74%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
@@ -239,7 +239,7 @@ at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RoundRobin_AdMob_Native_First -->
-        <test-method status="PASS" signature="Stop_Appium()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="Stop_Appium" is-config="true" duration-ms="55" started-at="2020-11-04T11:20:48 PKT" finished-at="2020-11-04T11:20:48 PKT">
+        <test-method status="PASS" signature="Stop_Appium()[pri:0, instance:com.Android_SDK_Native.RoundRobin_AdMob_Native@369f73a2]" name="Stop_Appium" is-config="true" duration-ms="57" started-at="2020-11-04T18:06:53 PKT" finished-at="2020-11-04T18:06:53 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stop_Appium -->
